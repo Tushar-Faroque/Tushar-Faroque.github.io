@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Now reading:** technology books, including *Designing Data-Intensive Applications*, alongside database internals lectures.
+**Now reading:** technology books, including _Designing Data-Intensive Applications_, alongside database internals lectures.
