@@ -1437,3 +1437,40 @@ figure.cover {
   margin-right: 0.4rem;
   color: var(--global-theme-color);
 }
+
+// Animated gradient background
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(120deg, #ffffff, #eaf1ff, #f3ecff, #e8f8f3, #ffffff);
+  background-size: 400% 400%;
+  animation: gradient-shift 24s ease infinite;
+}
+
+html[data-theme="dark"] body::before {
+  background: linear-gradient(120deg, #0b0e14, #11204a, #25123f, #0b2a2e, #0b0e14);
+  background-size: 400% 400%;
+  animation: gradient-shift 24s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before,
+  html[data-theme="dark"] body::before {
+    animation: none;
+  }
+}
