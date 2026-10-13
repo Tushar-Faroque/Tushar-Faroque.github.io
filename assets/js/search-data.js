@@ -105,11 +105,6 @@ ninja.data = [{
           description: "Fine-tuned classifiers that brief human agents during live calls",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_call_intelligence/";
-            },},{id: "projects-selector-discovery-pipeline",
-          title: 'Selector discovery pipeline',
-          description: "An LLM walks a website step by step, then writes the Playwright code",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_selector_discovery/";
             },},{id: "projects-inventory-and-pricing-automation",
           title: 'Inventory and pricing automation',
           description: "Marketplace inventory sync and a rule-driven pricing engine",
