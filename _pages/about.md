@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Data Analyst at <a href='https://gauratravel.com.au' target='_blank'>Gaura Travel</a>. Automation, data pipelines and applied ML.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  # image: prof_pic.jpg # add your photo to assets/img/ and uncomment
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Data Analyst, Gaura Travel</p>
+    <p>Master of Data Science, Monash</p>
+    <p>Melbourne, Australia</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # no publications section
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm Tushar, a data analyst and computer science engineer in Melbourne, Australia. I hold a Master of Data Science from Monash University (July 2025) and a Bachelor of Computer Science and Engineering from North South University in Dhaka.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I work as a Data Analyst at Gaura Travel (also trading as Global Travel Xperts and iFlynow). I started in May 2026 alongside an internship and moved to three days a week from September. My work sits where data meets automation. I designed the four-layer architecture behind the company's automation ecosystem: **Playwright** for browser automation, **FastAPI** services managed by **PM2**, **n8n** for orchestration, and **PHP/MySQL** for storage and dashboards. It covers airline ticketing, payments, reconciliation, stock management, email ingestion and reporting. See the [projects](/projects/) page for how the pieces fit together.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before that, I was a Research Assistant and Teaching Assistant at North South University, where I published a first-author paper at BMVC 2022, and I led data work on GigNestMel, a Monash capstone product for gig workers in Melbourne that earned a Distinction. Today I'm bringing that machine learning background into day-to-day work, fine-tuning small self-hosted language models that classify customer needs from call transcripts.
+
+Outside work I self-host n8n on a home NAS behind Tailscale, write small desktop tools in Rust, and read a lot about databases and typography. My [cv](/cv/) has the details, and the [notes](/blog/) section holds the occasional write-up.

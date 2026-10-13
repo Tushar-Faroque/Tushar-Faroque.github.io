@@ -1,200 +1,140 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Md Tahrim Faroque (Tushar)",
+    "label": "Data Analyst | Master of Data Science",
+    "url": "https://me.tfaroque.net",
+    "summary": "Master of Data Science graduate from Monash University with hands-on experience in data analysis, SQL databases and Python-based data processing. Part-time Data Analyst at Gaura Travel, designing and building browser, API and workflow automations for airline operations. Strong background in requirements gathering, data validation and system documentation within Agile environments."
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Gaura Travel (GTX)",
+      "position": "Data Analyst (part-time)",
+      "url": "https://gauratravel.com.au",
+      "startDate": "2026-05-01",
+      "summary": "Two days a week from May 2026 alongside the internship, three days a week from September 2026.",
+      "highlights": [
+        "Maintain and extend the automation ecosystem, adding new airline workflows and monitoring execution status through a sync and failure-logging system.",
+        "Built a custom AI voice calling agent with call intelligence extraction to replace the previous VAPI-based setup.",
+        "Investigating n8n container memory usage and tracking it over time to improve the stability of production workflows."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Gaura Travel (GTX)",
+      "position": "Data Analyst Intern",
+      "url": "https://gauratravel.com.au",
+      "startDate": "2026-05-01",
+      "endDate": "2026-08-31",
+      "highlights": [
+        "Designed the four-layer automation architecture (Playwright, FastAPI on PM2, n8n, PHP/MySQL) that underpins the company's automation ecosystem.",
+        "Built end-to-end airline workflow automations for Air India, AirAsia and Singapore Airlines covering ticket issuance, EMD and payment processing, stock downsizing and group PNR checks.",
+        "Automated Amadeus Selling Platform Connect and airline agent portal tasks using Playwright, exposed as FastAPI services and orchestrated through n8n.",
+        "Developed Python and n8n pipelines for IATA ticket reconciliation, invoice PDF parsing and email extraction into MySQL databases.",
+        "Built PHP dashboards and admin tools on the company's WordPress/MySQL platform, including D7 stock management and a live flight board."
+      ]
+    },
+    {
+      "name": "Euro Garages (EG), Berwick",
+      "position": "Team Member (Fuel Station)",
+      "startDate": "2023-03-01",
+      "highlights": [
+        "Delivered customer service to 300+ daily customers in a convenience retail and consumer electronics environment.",
+        "Operated point-of-sale systems and processed sales transactions with high accuracy."
+      ]
+    },
+    {
+      "name": "North South University",
+      "position": "Research Assistant",
+      "startDate": "2021-09-01",
+      "endDate": "2022-12-31",
+      "highlights": [
+        "Analysed 10,000+ data sequences using Python and statistical methods, optimising data processing workflows by 40%.",
+        "Published a first-author research paper at an international conference (BMVC 2022) and presented the findings to a technical audience.",
+        "Collaborated with cross-functional research teams to translate requirements into analytical frameworks."
+      ]
+    },
+    {
+      "name": "North South University",
+      "position": "Teaching Assistant",
+      "startDate": "2021-03-01",
+      "endDate": "2022-12-31",
+      "highlights": [
+        "Mentored 40+ students weekly in programming (Python, SQL), statistics and mathematics.",
+        "Collaborated with 6+ faculty on assessment quality assurance and process improvement."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "Monash University, Clayton",
+      "studyType": "Master of Data Science",
+      "area": "Completed July 2025. Special interest in big data, data privacy, deep learning and machine learning."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "Performance Education, Melbourne",
+      "studyType": "Professional Year",
+      "area": "Completed September 2025. Australian business culture, workplace skills and professional business communication."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "North South University, Dhaka, Bangladesh",
+      "studyType": "Bachelor of Computer Science and Engineering",
+      "area": "Completed December 2020. Information technology, machine learning and databases."
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "First-author paper, BMVC 2022",
+      "publisher": "British Machine Vision Conference",
+      "releaseDate": "2022-11-01",
+      "summary": "Research completed as a Research Assistant at North South University."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "SQL", "R", "JavaScript", "HTML and CSS", "PHP"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Automation and backend",
+      "icon": "fa-solid fa-gears",
+      "keywords": ["Playwright", "FastAPI", "n8n", "PM2", "MySQL"]
+    },
+    {
+      "name": "AI and ML",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["PyTorch", "TensorFlow", "scikit-learn", "pandas", "NumPy", "Matplotlib"]
+    },
+    {
+      "name": "Data tools",
+      "icon": "fa-solid fa-chart-column",
+      "keywords": ["Power BI", "Tableau (beginner)", "Excel"]
+    },
+    {
+      "name": "Cloud and systems",
+      "icon": "fa-solid fa-cloud",
+      "keywords": ["AWS", "Microsoft Azure", "Linux (CentOS, Ubuntu)", "Windows"]
+    },
+    {
+      "name": "Ways of working",
+      "icon": "fa-solid fa-list-check",
+      "keywords": ["Agile, Scrum and Waterfall", "Requirements and functional specifications", "Technical documentation", "Data quality testing"]
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Self-hosting",
+      "icon": "fa-solid fa-server",
+      "keywords": ["Home NAS", "Docker", "Tailscale"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "name": "Systems tooling",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "keywords": ["Rust desktop tools", "Database internals"]
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Reading",
+      "icon": "fa-solid fa-book-open",
+      "keywords": ["E-ink readers", "Typography"]
     }
   ]
 }

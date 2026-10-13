@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Automation, data and ML work, mostly from my time at Gaura Travel. Internal details are kept high level on purpose.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 1
+display_categories: [work, ai, university, personal]
 horizontal: false
 ---
 

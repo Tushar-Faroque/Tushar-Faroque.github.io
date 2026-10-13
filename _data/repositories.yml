@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Tushar-Faroque
 
 repo_description_lines_max: 2
 
+# add public repositories here as owner/name
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Tushar-Faroque/Tushar-Faroque.github.io
