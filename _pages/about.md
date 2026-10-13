@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<p class="hero-roles">I build <span id="typed-role" class="typed-role">browser automations</span><span class="typed-cursor">|</span></p>
+<p class="hero-roles">I build <span id="typed-role" class="typed-role">browser automations</span><span class="typed-cursor">_</span></p>
 
 I'm Tushar, a data analyst and computer science engineer in Melbourne, Australia. I hold a Master of Data Science from Monash University (July 2025) and a Bachelor of Computer Science and Engineering from North South University in Dhaka.
 
@@ -38,8 +38,8 @@ Before that, I was a Research Assistant and Teaching Assistant at North South Un
 Outside work I self-host n8n on a home NAS behind Tailscale, write small desktop tools in Rust, and read a lot about databases and typography. My [cv](/cv/) has the details, and the [notes](/blog/) section holds the occasional write-up.
 
 <div class="stat-row">
-  <div class="stat"><span class="stat-num" data-count="20" data-suffix="+">20+</span><span class="stat-label">production automations</span></div>
-  <div class="stat"><span class="stat-num" data-count="3">3</span><span class="stat-label">airlines automated</span></div>
-  <div class="stat"><span class="stat-num" data-count="4">4</span><span class="stat-label">layer architecture</span></div>
-  <div class="stat"><span class="stat-num" data-count="1">1</span><span class="stat-label">first-author paper, BMVC 2022</span></div>
+  <div class="stat"><span class="stat-num" data-count="20" data-suffix="+">20+</span> <span class="stat-label">production automations</span></div>
+  <div class="stat"><span class="stat-num" data-count="3">3</span> <span class="stat-label">airlines automated</span></div>
+  <div class="stat"><span class="stat-num" data-count="4">4</span> <span class="stat-label">layer architecture</span></div>
+  <div class="stat"><span class="stat-num" data-count="1">1</span> <span class="stat-label">first-author paper, BMVC 2022</span></div>
 </div>

@@ -1445,15 +1445,15 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: linear-gradient(120deg, #ffffff, #eaf1ff, #f3ecff, #e8f8f3, #ffffff);
+  background: linear-gradient(120deg, #f4f7ff, #d7e6ff, #ecdcff, #d2f3e8, #f4f7ff);
   background-size: 400% 400%;
-  animation: gradient-shift 24s ease infinite;
+  animation: gradient-shift 20s ease infinite;
 }
 
 html[data-theme="dark"] body::before {
-  background: linear-gradient(120deg, #0b0e14, #11204a, #25123f, #0b2a2e, #0b0e14);
+  background: linear-gradient(120deg, #0b0e14, #12285c, #2a1450, #0c3a3f, #0b0e14);
   background-size: 400% 400%;
-  animation: gradient-shift 24s ease infinite;
+  animation: gradient-shift 20s ease infinite;
 }
 
 @keyframes gradient-shift {
@@ -1489,6 +1489,7 @@ html[data-theme="dark"] body::before {
 
 .typed-cursor {
   color: var(--global-theme-color);
+  font-weight: 700;
   animation: blink 1s steps(1) infinite;
 }
 
