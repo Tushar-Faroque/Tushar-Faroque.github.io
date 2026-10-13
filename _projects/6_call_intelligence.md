@@ -3,6 +3,7 @@ layout: page
 title: Call intelligence
 description: Fine-tuned classifiers that brief human agents during live calls
 importance: 1
+icon: fa-solid fa-headset
 category: ai
 ---
 

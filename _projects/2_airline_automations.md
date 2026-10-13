@@ -3,6 +3,7 @@ layout: page
 title: Airline group-booking automations
 description: Air India, AirAsia and Singapore Airlines workflows across portals and Amadeus
 importance: 2
+icon: fa-solid fa-plane
 category: work
 ---
 

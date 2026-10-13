@@ -3,6 +3,7 @@ layout: page
 title: Workflow monitoring
 description: Execution tracking, a live dashboard and stall alerts for 80+ n8n workflows
 importance: 4
+icon: fa-solid fa-gauge-high
 category: work
 ---
 

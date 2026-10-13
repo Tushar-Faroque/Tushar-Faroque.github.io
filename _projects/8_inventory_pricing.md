@@ -3,6 +3,7 @@ layout: page
 title: Inventory and pricing automation
 description: Marketplace inventory sync and a rule-driven pricing engine
 importance: 6
+icon: fa-solid fa-tags
 category: work
 ---
 

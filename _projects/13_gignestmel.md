@@ -3,6 +3,7 @@ layout: page
 title: GigNestMel
 description: A capstone product supporting gig workers in Melbourne (Distinction)
 importance: 1
+icon: fa-solid fa-map-location-dot
 category: university
 ---
 

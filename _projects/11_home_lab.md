@@ -3,6 +3,7 @@ layout: page
 title: Home lab and NAS
 description: Self-hosted n8n on a home NAS, reachable anywhere over Tailscale
 importance: 1
+icon: fa-solid fa-server
 category: personal
 ---
 

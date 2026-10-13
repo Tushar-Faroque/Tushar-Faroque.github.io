@@ -3,6 +3,7 @@ layout: page
 title: Customer support agent
 description: A CRM chatbot that answers real booking questions from live data
 importance: 3
+icon: fa-solid fa-robot
 category: ai
 ---
 

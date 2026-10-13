@@ -3,6 +3,7 @@ layout: page
 title: mx3s-ctl
 description: A Rust controller for the Logitech MX Master 3S
 importance: 2
+icon: fa-solid fa-computer-mouse
 category: personal
 ---
 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Part-time Data Analyst hours at Gaura Travel increased from two to **three days a week**.
+Moved into an ongoing **part-time Data Analyst role** at Gaura Travel after the internship.

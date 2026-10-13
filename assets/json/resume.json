@@ -11,7 +11,6 @@
       "position": "Data Analyst (part-time)",
       "url": "https://gauratravel.com.au",
       "startDate": "2026-05-01",
-      "summary": "Two days a week from May 2026 alongside the internship, three days a week from September 2026.",
       "highlights": [
         "Maintain and extend the automation ecosystem, adding new airline workflows and monitoring execution status through a sync and failure-logging system.",
         "Built a custom AI voice calling agent with call intelligence extraction to replace the previous VAPI-based setup.",

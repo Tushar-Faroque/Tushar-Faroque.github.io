@@ -3,6 +3,7 @@ layout: page
 title: Email ingestion pipelines
 description: Outlook mailboxes turned into structured, searchable tables
 importance: 5
+icon: fa-solid fa-envelope-open-text
 category: work
 ---
 

@@ -1423,3 +1423,17 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Project icons
+.project-icon {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+  color: var(--global-theme-color);
+}
+
+.page-icon {
+  font-size: 0.7em;
+  margin-right: 0.4rem;
+  color: var(--global-theme-color);
+}

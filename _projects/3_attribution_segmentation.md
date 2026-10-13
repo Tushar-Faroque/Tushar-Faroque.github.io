@@ -3,6 +3,7 @@ layout: page
 title: Attribution and customer segmentation
 description: Sales attribution plus customer tagging across a large booking history
 importance: 3
+icon: fa-solid fa-chart-pie
 category: work
 ---
 

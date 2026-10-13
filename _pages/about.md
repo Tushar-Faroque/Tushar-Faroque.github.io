@@ -6,7 +6,7 @@ subtitle: Data Analyst at <a href='https://gauratravel.com.au' target='_blank'>G
 
 profile:
   align: right
-  # image: prof_pic.jpg # add your photo to assets/img/ and uncomment
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Data Analyst, Gaura Travel</p>
@@ -29,7 +29,7 @@ latest_posts:
 
 I'm Tushar, a data analyst and computer science engineer in Melbourne, Australia. I hold a Master of Data Science from Monash University (July 2025) and a Bachelor of Computer Science and Engineering from North South University in Dhaka.
 
-I work as a Data Analyst at Gaura Travel (also trading as Global Travel Xperts and iFlynow). I started in May 2026 alongside an internship and moved to three days a week from September. My work sits where data meets automation. I designed the four-layer architecture behind the company's automation ecosystem: **Playwright** for browser automation, **FastAPI** services managed by **PM2**, **n8n** for orchestration, and **PHP/MySQL** for storage and dashboards. It covers airline ticketing, payments, reconciliation, stock management, email ingestion and reporting. See the [projects](/projects/) page for how the pieces fit together.
+I work as a Data Analyst at Gaura Travel (also trading as Global Travel Xperts and iFlynow). I joined in May 2026 as an intern and now work part-time. My work sits where data meets automation. I designed the four-layer architecture behind the company's automation ecosystem: **Playwright** for browser automation, **FastAPI** services managed by **PM2**, **n8n** for orchestration, and **PHP/MySQL** for storage and dashboards. It covers airline ticketing, payments, reconciliation, stock management, email ingestion and reporting. See the [projects](/projects/) page for how the pieces fit together.
 
 Before that, I was a Research Assistant and Teaching Assistant at North South University, where I published a first-author paper at BMVC 2022, and I led data work on GigNestMel, a Monash capstone product for gig workers in Melbourne that earned a Distinction. Today I'm bringing that machine learning background into day-to-day work, fine-tuning small self-hosted language models that classify customer needs from call transcripts.
 

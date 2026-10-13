@@ -3,6 +3,7 @@ layout: page
 title: Selector discovery pipeline
 description: An LLM walks a website step by step, then writes the Playwright code
 importance: 2
+icon: fa-solid fa-crosshairs
 category: ai
 ---
 
