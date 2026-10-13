@@ -9,6 +9,26 @@ category: work
 
 Most business processes at a travel company end in someone logging into a supplier portal, clicking through a flow and copying results into another system. I designed a repeatable architecture so each of those processes could become an automation without reinventing the plumbing every time.
 
+<div class="flow-diagram">
+<svg viewBox="0 0 900 150" role="img" aria-label="Flow from Playwright to FastAPI and PM2 to n8n to PHP and MySQL">
+  <rect class="flow-box" x="10" y="30" width="190" height="90" rx="12"/>
+  <text class="flow-title" x="105" y="72">Playwright</text>
+  <text class="flow-sub" x="105" y="98">drives the browser</text>
+  <line class="flow-line" x1="204" y1="75" x2="228" y2="75"/>
+  <rect class="flow-box" x="235" y="30" width="190" height="90" rx="12"/>
+  <text class="flow-title" x="330" y="72">FastAPI + PM2</text>
+  <text class="flow-sub" x="330" y="98">tasks as APIs</text>
+  <line class="flow-line" x1="429" y1="75" x2="453" y2="75"/>
+  <rect class="flow-box" x="460" y="30" width="190" height="90" rx="12"/>
+  <text class="flow-title" x="555" y="72">n8n</text>
+  <text class="flow-sub" x="555" y="98">orchestrates workflows</text>
+  <line class="flow-line" x1="654" y1="75" x2="678" y2="75"/>
+  <rect class="flow-box" x="685" y="30" width="190" height="90" rx="12"/>
+  <text class="flow-title" x="780" y="72">PHP + MySQL</text>
+  <text class="flow-sub" x="780" y="98">state and dashboards</text>
+</svg>
+</div>
+
 ## The four layers
 
 1. **Playwright** drives the browser: logging in, handling OTP prompts, navigating, scraping and submitting.
