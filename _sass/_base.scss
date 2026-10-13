@@ -1600,3 +1600,13 @@ html[data-theme="dark"] body::before {
     animation: none;
   }
 }
+
+// Preferred name
+.preferred-name {
+  color: #e8497a;
+  font-weight: 600;
+  background: linear-gradient(90deg, #f2711c, #e8497a, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
