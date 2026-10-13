@@ -18,7 +18,7 @@ I moved my personal n8n instance off a laptop and onto a UGREEN NAS so workflows
 
 ## Why
 
-It is the test bench for ideas like the [selector discovery pipeline](/projects/7_selector_discovery/), which runs n8n at home and a browser service on my laptop.
+It is my test bench for side projects and experiments with n8n and local services.
 
 ## Stack
 

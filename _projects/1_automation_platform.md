@@ -46,4 +46,4 @@ Most business processes at a travel company end in someone logging into a suppli
 
 Python, Playwright, FastAPI, PM2, n8n, PHP, MySQL.
 
-Related: [airline workflows](/projects/2_airline_automations/), [workflow monitoring](/projects/4_workflow_monitoring/), [selector discovery](/projects/7_selector_discovery/).
+Related: [airline workflows](/projects/2_airline_automations/) and [workflow monitoring](/projects/4_workflow_monitoring/).
