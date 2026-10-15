@@ -5,21 +5,18 @@ document.addEventListener("DOMContentLoaded", function () {
   var typed = document.getElementById("typed-role");
   if (typed && !reduce) {
     var roles = [
-      { text: "browser automations", color: "#f2711c" },
-      { text: "data pipelines", color: "#1f9d8a" },
-      { text: "n8n workflows", color: "#e8497a" },
-      { text: "ML classifiers", color: "#8b5cf6" },
-      { text: "live dashboards", color: "#2f80ed" },
+      { text: "browser automations" },
+      { text: "data pipelines" },
+      { text: "n8n workflows" },
+      { text: "ML classifiers" },
+      { text: "live dashboards" },
     ];
-    var cursor = document.querySelector(".typed-cursor");
     var r = 0;
     var c = 0;
     var deleting = false;
     var tick = function () {
       var word = roles[r].text;
       typed.textContent = word.slice(0, c);
-      typed.style.color = roles[r].color;
-      if (cursor) cursor.style.color = roles[r].color;
       if (!deleting && c === word.length) {
         deleting = true;
         setTimeout(tick, 1400);

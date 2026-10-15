@@ -1445,13 +1445,13 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: linear-gradient(120deg, #f4f7ff, #d7e6ff, #ecdcff, #d2f3e8, #f4f7ff);
+  background: linear-gradient(120deg, #fcfbf8, #f4f1ea, #f9f6ef, #efece4, #fcfbf8);
   background-size: 400% 400%;
   animation: gradient-shift 20s ease infinite;
 }
 
 html[data-theme="dark"] body::before {
-  background: linear-gradient(120deg, #0b0e14, #12285c, #2a1450, #0c3a3f, #0b0e14);
+  background: linear-gradient(120deg, #0e1014, #181b22, #12151b, #1c1f26, #0e1014);
   background-size: 400% 400%;
   animation: gradient-shift 20s ease infinite;
 }
@@ -1483,12 +1483,12 @@ html[data-theme="dark"] body::before {
 }
 
 .typed-role {
-  color: var(--global-theme-color);
-  font-weight: 500;
+  color: var(--accent-cvd);
+  font-weight: 600;
 }
 
 .typed-cursor {
-  color: var(--global-theme-color);
+  color: var(--accent-cvd);
   font-weight: 700;
   animation: blink 1s steps(1) infinite;
 }
@@ -1602,11 +1602,15 @@ html[data-theme="dark"] body::before {
 }
 
 // Preferred name
+:root {
+  --accent-cvd: #0072b2;
+}
+
+html[data-theme="dark"] {
+  --accent-cvd: #56b4e9;
+}
+
 .preferred-name {
-  color: #e8497a;
+  color: var(--accent-cvd);
   font-weight: 600;
-  background: linear-gradient(90deg, #f2711c, #e8497a, #8b5cf6);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
