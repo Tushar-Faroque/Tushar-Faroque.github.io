@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "news-joined-gaura-travel-as-a-data-analyst-intern-and-part-time-data-analyst-and-began-designing-the-playwright-fastapi-n8n-and-php-mysql-automation-architecture",
+        },{id: "post-a-four-layer-pattern-for-browser-automation",
+        
+          title: "A four-layer pattern for browser automation",
+        
+        description: "How Playwright, FastAPI, n8n and PHP/MySQL fit together",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/four-layer-automation/";
+          
+        },
+      },{id: "news-joined-gaura-travel-as-a-data-analyst-intern-and-part-time-data-analyst-and-began-designing-the-playwright-fastapi-n8n-and-php-mysql-automation-architecture",
           title: 'Joined Gaura Travel as a Data Analyst Intern and part-time Data Analyst, and...',
           description: "",
           section: "News",},{id: "news-moved-into-an-ongoing-part-time-data-analyst-role-at-gaura-travel-after-the-internship",
