@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       { text: "browser automations" },
       { text: "data pipelines" },
       { text: "n8n workflows" },
-      { text: "ML classifiers" },
+      { text: "ML/DL models" },
       { text: "live dashboards" },
     ];
     var r = 0;
