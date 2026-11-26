@@ -1515,6 +1515,25 @@ html[data-theme="dark"] body::before {
   background-color: var(--global-card-bg-color);
 }
 
+// Clickable stat tile
+a.stat-link {
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+a.stat-link:hover,
+a.stat-link:focus-visible {
+  border-color: var(--global-theme-color);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+a.stat-link .stat-label i {
+  font-size: 0.75rem;
+}
+
 .stat-num {
   display: block;
   font-size: 2.2rem;

@@ -39,7 +39,7 @@ Outside work I self-host n8n on a home NAS behind Tailscale, write small desktop
 
 <div class="stat-row">
   <div class="stat"><span class="stat-num" data-count="50" data-suffix="+">50+</span> <span class="stat-label">production automations</span></div>
-  <div class="stat"><span class="stat-num" data-count="5">5</span> <span class="stat-label">airlines automated</span></div>
+  <a class="stat stat-link" href="/projects/2_airline_automations/" title="See the airline automations"><span class="stat-num" data-count="5">5</span> <span class="stat-label">airlines automated <i class="fa-solid fa-arrow-right"></i></span></a>
   <div class="stat"><span class="stat-num" data-count="4">4</span> <span class="stat-label">layer architecture</span></div>
   <div class="stat"><span class="stat-num" data-count="1">1</span> <span class="stat-label">first-author paper, BMVC 2022</span></div>
 </div>
