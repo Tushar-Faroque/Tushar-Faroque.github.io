@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Automation platform
-description: A four-layer architecture behind 20+ production automations
+description: A four-layer architecture behind 30+ production automations
 importance: 1
 icon: fa-solid fa-diagram-project
 category: work

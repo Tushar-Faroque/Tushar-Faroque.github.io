@@ -16,10 +16,15 @@ I moved my personal n8n instance off a laptop and onto a UGREEN NAS so workflows
 - Fixing the Tailscale container to use a real network interface rather than silently falling back to userspace networking made the connection reliable.
 - Going over Tailscale gave noticeably lower latency than the vendor's relay service.
 
+## E-reader sync
+
+- A self-hosted KOReader progress sync server on the NAS, reached over Tailscale, keeps my Kobo and phone on the same page anywhere.
+- Syncthing mirrors the book folder and the highlight sidecar files between the NAS, the Kobo and Android.
+
 ## Why
 
 It is my test bench for side projects and experiments with n8n and local services.
 
 ## Stack
 
-Docker, Tailscale, n8n.
+Docker, Tailscale, n8n, Syncthing, KOReader.

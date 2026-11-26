@@ -13,6 +13,9 @@
       "startDate": "2026-05-01",
       "highlights": [
         "Maintain and extend the automation ecosystem, adding new airline workflows and monitoring execution status through a sync and failure-logging system.",
+        "Built HR automations that sync leave and attendance from the HR system into the staff roster and apply approved leave back into it, plus a roster optimiser and leave approval views.",
+        "Extended airline automations to Batik Air and Qantas, and added e-ticket capture from email, automatic e-ticket delivery to customers, and payment error escalation with reply tracking.",
+        "Maintain browser automations for banking, payments and booking portals, and wrote technical documentation for the airline automation suites.",
         "Built a custom AI voice calling agent with call intelligence extraction to replace the previous VAPI-based setup.",
         "Investigating n8n container memory usage and tracking it over time to improve the stability of production workflows."
       ]
@@ -91,49 +94,93 @@
     {
       "name": "Programming",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "SQL", "R", "JavaScript", "HTML and CSS", "PHP"]
+      "keywords": [
+        "Python",
+        "SQL",
+        "R",
+        "JavaScript",
+        "HTML and CSS",
+        "PHP"
+      ]
     },
     {
       "name": "Automation and backend",
       "icon": "fa-solid fa-gears",
-      "keywords": ["Playwright", "FastAPI", "n8n", "PM2", "MySQL"]
+      "keywords": [
+        "Playwright",
+        "FastAPI",
+        "n8n",
+        "PM2",
+        "MySQL"
+      ]
     },
     {
       "name": "AI and ML",
       "icon": "fa-solid fa-brain",
-      "keywords": ["PyTorch", "TensorFlow", "scikit-learn", "pandas", "NumPy", "Matplotlib"]
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "pandas",
+        "NumPy",
+        "Matplotlib"
+      ]
     },
     {
       "name": "Data tools",
       "icon": "fa-solid fa-chart-column",
-      "keywords": ["Power BI", "Tableau (beginner)", "Excel"]
+      "keywords": [
+        "Power BI",
+        "Tableau (beginner)",
+        "Excel"
+      ]
     },
     {
       "name": "Cloud and systems",
       "icon": "fa-solid fa-cloud",
-      "keywords": ["AWS", "Microsoft Azure", "Linux (CentOS, Ubuntu)", "Windows"]
+      "keywords": [
+        "AWS",
+        "Microsoft Azure",
+        "Linux (CentOS, Ubuntu)",
+        "Windows"
+      ]
     },
     {
       "name": "Ways of working",
       "icon": "fa-solid fa-list-check",
-      "keywords": ["Agile, Scrum and Waterfall", "Requirements and functional specifications", "Technical documentation", "Data quality testing"]
+      "keywords": [
+        "Agile, Scrum and Waterfall",
+        "Requirements and functional specifications",
+        "Technical documentation",
+        "Data quality testing"
+      ]
     }
   ],
   "interests": [
     {
       "name": "Self-hosting",
       "icon": "fa-solid fa-server",
-      "keywords": ["Home NAS", "Docker", "Tailscale"]
+      "keywords": [
+        "Home NAS",
+        "Docker",
+        "Tailscale"
+      ]
     },
     {
       "name": "Systems tooling",
       "icon": "fa-solid fa-screwdriver-wrench",
-      "keywords": ["Rust desktop tools", "Database internals"]
+      "keywords": [
+        "Rust desktop tools",
+        "Database internals"
+      ]
     },
     {
       "name": "Reading",
       "icon": "fa-solid fa-book-open",
-      "keywords": ["E-ink readers", "Typography"]
+      "keywords": [
+        "E-ink readers",
+        "Typography"
+      ]
     }
   ]
 }
