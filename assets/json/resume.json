@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Md Tahrim Faroque (Tushar)",
-    "label": "Data Analyst | Master of Data Science",
+    "label": "Business Analyst | AI & Automation",
     "url": "https://me.tfaroque.net",
-    "summary": "Master of Data Science graduate from Monash University with hands-on experience in data analysis, SQL databases and Python-based data processing. Part-time Data Analyst at Gaura Travel, designing and building browser, API and workflow automations for airline operations. Strong background in requirements gathering, data validation and system documentation within Agile environments."
+    "summary": "Master of Data Science graduate from Monash University with hands-on experience in data analysis, SQL databases and Python-based data processing. At Gaura Travel, working across business analysis, development and AI engineering, designing and building browser, API and workflow automations for airline operations. Strong background in requirements gathering, data validation and system documentation within Agile environments."
   },
   "work": [
     {
       "name": "Gaura Travel (GTX)",
-      "position": "Data Analyst (part-time)",
+      "position": "Data Analyst (Business Analysis, AI & Automation), part-time",
       "url": "https://gauratravel.com.au",
       "startDate": "2026-05-01",
       "highlights": [
