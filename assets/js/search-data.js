@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "A four-layer pattern for browser automation",
         
-        description: "How Playwright, FastAPI, n8n and PHP/MySQL fit together",
+        description: "How Python with Playwright, FastAPI, n8n and PHP/MySQL fit together",
         section: "Posts",
         handler: () => {
           
