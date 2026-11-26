@@ -1709,3 +1709,48 @@ html[data-theme="dark"] {
   color: var(--accent-cvd);
   font-weight: 600;
 }
+
+// Readability: stronger body text
+body {
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+html[data-theme="light"] body,
+html:not([data-theme]) body {
+  color: #1d1d1f;
+}
+
+.post-title {
+  font-weight: 400;
+}
+
+.post-header .desc {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.profile .more-info {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+html[data-theme="light"] .stat-label,
+html[data-theme="light"] .flow-sub,
+html:not([data-theme]) .stat-label {
+  color: #555555;
+}
+
+.stat-label {
+  font-weight: 500;
+}
+
+.card-text,
+.post-description,
+.news td {
+  font-weight: 400;
+}
