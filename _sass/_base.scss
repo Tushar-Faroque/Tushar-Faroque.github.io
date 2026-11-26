@@ -1438,14 +1438,14 @@ figure.cover {
   color: var(--global-theme-color);
 }
 
-// Animated gradient background
+// Animated gradient background (cool neutral for colour-blind contrast)
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: linear-gradient(120deg, #fcfbf8, #f4f1ea, #f9f6ef, #efece4, #fcfbf8);
+  background: linear-gradient(120deg, #f7f9fc, #eef2f7, #f4f7fb, #ebeff5, #f7f9fc);
   background-size: 400% 400%;
   animation: gradient-shift 20s ease infinite;
 }
@@ -1708,49 +1708,4 @@ html[data-theme="dark"] {
 .preferred-name {
   color: var(--accent-cvd);
   font-weight: 600;
-}
-
-// Readability: stronger body text
-body {
-  font-weight: 400;
-  font-size: 1.05rem;
-  line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
-}
-
-html[data-theme="light"] body,
-html:not([data-theme]) body {
-  color: #1d1d1f;
-}
-
-.post-title {
-  font-weight: 400;
-}
-
-.post-header .desc {
-  font-weight: 400;
-  font-size: 1.1rem;
-}
-
-.profile .more-info {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-html[data-theme="light"] .stat-label,
-html[data-theme="light"] .flow-sub,
-html:not([data-theme]) .stat-label {
-  color: #555555;
-}
-
-.stat-label {
-  font-weight: 500;
-}
-
-.card-text,
-.post-description,
-.news td {
-  font-weight: 400;
 }
