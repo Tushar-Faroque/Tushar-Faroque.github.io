@@ -9,6 +9,8 @@ category: personal
 
 A small Windows tool written in Rust that talks to the MX Master 3S over HID and replaces the vendor software for the features I use.
 
+{% include flow.liquid steps="Mouse button::MX Master 3S|HID::read in Rust|Actions Ring::on-screen menu|Windows::volume and actions" label="mx3s-ctl input flow" %}
+
 ## Features in v0.2.0
 
 - An on-screen Actions Ring with colour-key transparency.

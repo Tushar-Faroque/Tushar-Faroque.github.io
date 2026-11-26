@@ -9,6 +9,8 @@ category: university
 
 GigNestMel was my Monash capstone project (February to July 2025), built by a team of five in an Agile environment. It helps food delivery and ride-share drivers in Melbourne with their day-to-day work and gives them safety and peace of mind. Live site: [gignest-mel.pages.dev](https://gignest-mel.pages.dev/home).
 
+{% include flow.liquid steps="Datasets::candidate sources|Integrity tests::quality and usability|Preparation::cleaned for the app|Product::map, safety, weather" label="GigNestMel data flow" %}
+
 ## My role
 
 Data Analyst and Engineer, with some wider IT work.

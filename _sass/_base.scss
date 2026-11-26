@@ -1515,6 +1515,34 @@ html[data-theme="dark"] body::before {
   background-color: var(--global-card-bg-color);
 }
 
+// Email chip under the name
+.email-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.6rem;
+  padding: 0.3rem 0.85rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  background-color: var(--global-card-bg-color);
+  font-size: 0.95rem;
+  color: var(--global-text-color) !important;
+  text-decoration: none !important;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.email-chip i {
+  color: var(--global-theme-color);
+}
+
+.email-chip:hover,
+.email-chip:focus-visible {
+  border-color: var(--global-theme-color);
+  transform: translateY(-2px);
+}
+
 // Clickable stat tile
 a.stat-link {
   text-decoration: none;
@@ -1571,9 +1599,52 @@ a.stat-link .stat-label i {
   margin: 1.5rem 0;
 }
 
+.flow-scroll {
+  overflow-x: auto;
+}
+
 .flow-diagram svg {
   width: 100%;
+  min-width: 620px;
   height: auto;
+}
+
+.flow-step {
+  fill: var(--global-theme-color);
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.flow-packet {
+  fill: var(--accent-cvd, var(--global-theme-color));
+  filter: drop-shadow(0 0 4px var(--accent-cvd, var(--global-theme-color)));
+}
+
+.flow-node .flow-box {
+  transition: fill 0.3s ease;
+}
+
+.flow-node {
+  animation-name: flow-pulse;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flow-pulse {
+  0% {
+    opacity: 1;
+  }
+  4% {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px var(--global-theme-color));
+  }
+  18% {
+    filter: none;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .flow-box {
@@ -1615,8 +1686,13 @@ a.stat-link .stat-label i {
 
 @media (prefers-reduced-motion: reduce) {
   .typed-cursor,
-  .flow-line {
+  .flow-line,
+  .flow-node {
     animation: none;
+  }
+
+  .flow-packet {
+    display: none;
   }
 }
 

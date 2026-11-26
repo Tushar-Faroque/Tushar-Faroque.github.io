@@ -9,6 +9,8 @@ category: personal
 
 I moved my personal n8n instance off a laptop and onto a UGREEN NAS so workflows keep running when the laptop is closed.
 
+{% include flow.liquid steps="Kobo::KOReader|Tailscale::private network|NAS::kosync and Syncthing|Phone::same page and highlights" label="E-reader sync over Tailscale" %}
+
 ## Setup
 
 - n8n runs in Docker through Compose on the NAS.

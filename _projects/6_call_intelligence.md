@@ -9,6 +9,8 @@ category: ai
 
 The goal is a copilot, not a robot caller. While a travel agent is on a call with a customer, the system builds a live profile of what the customer needs, what they object to, their budget and their sentiment, so the agent can respond better.
 
+{% include flow.liquid steps="Live call::customer and agent|Transcribe::real-time text|ModernBERT::classifies the need|Routing::structured JSON|Agent screen::live customer profile" label="Call intelligence pipeline" %}
+
 ## Pipeline
 
 1. Real-time transcription of the call.

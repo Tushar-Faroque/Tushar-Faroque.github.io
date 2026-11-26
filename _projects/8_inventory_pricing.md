@@ -7,6 +7,8 @@ icon: fa-solid fa-tags
 category: work
 ---
 
+{% include flow.liquid steps="Our stock::seats we hold|Sync table::what the marketplace has|Diff::only what changed|Marketplace::add, update, toggle" label="Marketplace inventory sync" %}
+
 ## Marketplace inventory
 
 Seats sold through an online travel marketplace have to match what the company actually holds. I built an automation suite that adds inventory, syncs fares and baggage, and toggles listings on and off.

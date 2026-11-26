@@ -9,6 +9,8 @@ categories: notes
 
 Most of the automations I build start the same way: a person logs into a website, clicks through a flow and copies something somewhere else. After a few of these I settled on a pattern that keeps each new automation small.
 
+{% include flow.liquid steps="Playwright::does the clicking|FastAPI + PM2::task as an API|n8n::decides when and what next|PHP + MySQL::remembers everything" label="Four-layer automation pattern" %}
+
 ## The layers
 
 **1. Playwright does the clicking.** One Python script per task, with selectors kept in one place at the top. When a portal changes, this is the only file that needs to change.

@@ -9,6 +9,8 @@ category: work
 
 Marketing spend is hard to judge when sales, ad clicks and customers live in different systems. This project links them and then turns the result into segments the business can act on.
 
+{% include flow.liquid steps="Sales::booking history|Source tags::likely channel per sale|Click IDs::ad clicks back-filled|Segments::retention and value|Nightly report::CSV by email" label="Attribution and segmentation flow" %}
+
 ## Attribution pipeline
 
 - Builds a sales fact table, tags every sale with its likely source, and back-fills ad click identifiers.

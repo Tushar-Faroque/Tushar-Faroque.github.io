@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Analyst at <a href='https://gauratravel.com.au' target='_blank'>Gaura Travel</a>. Automation, data pipelines and applied ML.
+subtitle: >
+  Data Analyst at <a href='https://gauratravel.com.au' target='_blank'>Gaura Travel</a>. Automation, data pipelines and applied ML.<br>
+  <a class='email-chip' href='mailto:message@tfaroque.net'><i class='fa-solid fa-envelope'></i> message@tfaroque.net</a>
 
 profile:
   align: right
@@ -38,8 +40,8 @@ Before that, I was a Research Assistant and Teaching Assistant at North South Un
 Outside work I self-host n8n on a home NAS behind Tailscale, write small desktop tools in Rust, and read a lot about databases and typography. My [cv](/cv/) has the details, and the [notes](/blog/) section holds the occasional write-up.
 
 <div class="stat-row">
-  <div class="stat"><span class="stat-num" data-count="50" data-suffix="+">50+</span> <span class="stat-label">production automations</span></div>
+  <a class="stat stat-link" href="/projects/1_automation_platform/#what-runs-on-it" title="See what runs on the platform"><span class="stat-num" data-count="50" data-suffix="+">50+</span> <span class="stat-label">production automations <i class="fa-solid fa-arrow-right"></i></span></a>
   <a class="stat stat-link" href="/projects/2_airline_automations/" title="See the airline automations"><span class="stat-num" data-count="5">5</span> <span class="stat-label">airlines automated <i class="fa-solid fa-arrow-right"></i></span></a>
-  <div class="stat"><span class="stat-num" data-count="4">4</span> <span class="stat-label">layer architecture</span></div>
-  <div class="stat"><span class="stat-num" data-count="1">1</span> <span class="stat-label">first-author paper, BMVC 2022</span></div>
+  <a class="stat stat-link" href="/blog/2026/four-layer-automation/" title="Read about the four-layer pattern"><span class="stat-num" data-count="4">4</span> <span class="stat-label">layer architecture <i class="fa-solid fa-arrow-right"></i></span></a>
+  <a class="stat stat-link" href="/cv/#publications" title="See the publication on my cv"><span class="stat-num" data-count="1">1</span> <span class="stat-label">first-author paper, BMVC 2022 <i class="fa-solid fa-arrow-right"></i></span></a>
 </div>

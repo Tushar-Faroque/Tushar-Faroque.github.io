@@ -9,6 +9,8 @@ category: work
 
 Customer care, sales, payments and refunds all arrive as email. I built pipelines that read those mailboxes and turn messages into structured records the teams can filter and report on.
 
+{% include flow.liquid steps="Outlook::team mailboxes|Graph API::n8n fetches mail|Extract::airline and booking refs|PHP import::upsert per mailbox|Dashboard::filter and reply" label="Email ingestion pipeline" %}
+
 ## How it works
 
 1. n8n fetches mail from each Outlook mailbox through the Microsoft Graph API.

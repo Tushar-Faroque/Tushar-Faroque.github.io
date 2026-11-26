@@ -9,6 +9,8 @@ category: work
 
 The HR system holds leave and attendance, but the staff roster lives in the company's own platform. Keeping the two in step by hand was slow and easy to get wrong, so I connected them.
 
+{% include flow.liquid steps="HR system::leave and attendance|Export API::Playwright on PM2|MySQL::raw and history tables|Roster::approved days marked|Apply back::one request per day" label="Leave sync between the HR system and the roster" %}
+
 ## What it covers
 
 - **Employee and leave sync**: scheduled exports of active employees, leave approvals and leave history, imported into MySQL.

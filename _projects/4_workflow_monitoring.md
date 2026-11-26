@@ -9,6 +9,8 @@ category: work
 
 With dozens of workflows running on schedules and webhooks, the question "did it actually run?" needs a real answer. I built a monitoring layer on top of n8n.
 
+{% include flow.liquid steps="n8n::80+ workflows|Status sync::running, success, failed|MySQL log::one row per run|Watchdog::two stall thresholds|Alert::one email per stall" label="Workflow monitoring flow" %}
+
 ## Components
 
 - **Status sync**: tracks running, success and failed states for all active workflows and writes them to a MySQL log table.

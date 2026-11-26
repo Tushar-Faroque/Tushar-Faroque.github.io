@@ -7,6 +7,8 @@ icon: fa-solid fa-screwdriver-wrench
 category: work
 ---
 
+{% include flow.liquid steps="Request form::staff upload the PDF|n8n webhook::starts the job|PDF parser::FastAPI on PM2|Invoice::branded PDF|Email::sent to the customer" label="Invoice generator flow" %}
+
 Smaller tools that remove a recurring chore.
 
 - **Invoice to Excel converter**: turns supplier tax invoice PDFs into day-wise, multi-sheet Excel workbooks that use formulas rather than hardcoded values. It started as a command line tool and grew into a small Flask web app with upload, a progress bar and download.

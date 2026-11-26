@@ -9,6 +9,8 @@ category: ai
 
 I integrated a HubSpot customer-facing AI agent with the company's booking data so it can answer order questions with facts instead of generic replies.
 
+{% include flow.liquid steps="Customer::asks about a booking|CRM agent::picks the question type|n8n webhook::query router|Booking data::live lookup|Answer::or hand off to a person" label="Support agent flow" %}
+
 ## What it does
 
 - A query router handles more than eight question types, including ticket status, payment balance, refund eligibility, date-change eligibility, baggage allowance and flight date.

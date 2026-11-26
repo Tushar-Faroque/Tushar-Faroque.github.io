@@ -1,0 +1,47 @@
+{%- comment -%} Animated flow diagram. Usage: include flow.liquid steps="Title::sub|Title::sub" label="..." {%- endcomment -%}
+{%- assign flow_steps = include.steps | split: '|' -%}
+{%- assign n = flow_steps.size -%}
+{%- assign last = n | minus: 1 -%}
+{%- assign step_s = 1.4 -%}
+{%- assign total = n | times: step_s | round: 1 -%}
+{%- assign stop = last | times: 1.0 | divided_by: n -%}
+{%- assign width = n | times: 235 | minus: 25 -%}
+{%- assign cx0 = 105 -%}
+{%- assign cxn = last | times: 235 | plus: 105 -%}
+<div class="flow-diagram">
+  <div class="flow-scroll">
+    <svg viewBox="0 0 {{ width }} 150" role="img" aria-label="{{ include.label | default: 'Process flow diagram' }}">
+      {%- for step in flow_steps -%}
+        {%- if forloop.last -%}{% break %}{% endif %}
+        {%- assign i = forloop.index0 -%}
+        {%- assign x1 = i | times: 235 | plus: 204 -%}
+        {%- assign x2 = x1 | plus: 26 -%}
+        <line class="flow-line" x1="{{ x1 }}" y1="75" x2="{{ x2 }}" y2="75" />
+        <polygon class="flow-arrow" points="{{ x2 | plus: 2 }},75 {{ x2 | minus: 6 }},70 {{ x2 | minus: 6 }},80" />
+      {%- endfor -%}
+      <circle class="flow-packet" r="7" cx="0" cy="0">
+        <animateMotion
+          dur="{{ total }}s"
+          repeatCount="indefinite"
+          path="M {{ cx0 }} 75 H {{ cxn }}"
+          keyPoints="0;1;1"
+          keyTimes="0;{{ stop }};1"
+          calcMode="linear"
+        />
+      </circle>
+      {%- for step in flow_steps -%}
+        {%- assign parts = step | split: '::' -%}
+        {%- assign i = forloop.index0 -%}
+        {%- assign x = i | times: 235 | plus: 10 -%}
+        {%- assign cx = x | plus: 95 -%}
+        {%- assign delay = i | times: step_s | round: 1 -%}
+        <g class="flow-node" style="animation-duration: {{ total }}s; animation-delay: {{ delay }}s">
+          <rect class="flow-box" x="{{ x }}" y="30" width="190" height="90" rx="12" />
+          <text class="flow-step" x="{{ x | plus: 16 }}" y="50">{{ forloop.index }}</text>
+          <text class="flow-title" x="{{ cx }}" y="74">{{ parts[0] | strip }}</text>
+          <text class="flow-sub" x="{{ cx }}" y="99">{{ parts[1] | strip }}</text>
+        </g>
+      {%- endfor -%}
+    </svg>
+  </div>
+</div>

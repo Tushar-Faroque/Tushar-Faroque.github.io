@@ -9,6 +9,8 @@ category: work
 
 Group bookings involve long manual sequences across airline portals and a global distribution system (GDS) terminal. I automated the repetitive, error-prone parts and kept a human in the loop where money moves.
 
+{% include flow.liquid steps="Payment button::sales or schedule|n8n webhook::queues the request|Airline portal::pays the booking|Amadeus::issues the EMD|MySQL::marks it paid" label="Group booking payment flow" %}
+
 ## What it covers
 
 - **Ticket issuance**: builds passenger name-list spreadsheets from booking data and emails them to the airline for ticketing and special service requests.
