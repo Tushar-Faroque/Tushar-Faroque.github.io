@@ -94,93 +94,49 @@
     {
       "name": "Programming",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "SQL",
-        "R",
-        "JavaScript",
-        "HTML and CSS",
-        "PHP"
-      ]
+      "keywords": ["Python", "SQL", "R", "JavaScript", "HTML and CSS", "PHP"]
     },
     {
       "name": "Automation and backend",
       "icon": "fa-solid fa-gears",
-      "keywords": [
-        "Playwright",
-        "FastAPI",
-        "n8n",
-        "PM2",
-        "MySQL"
-      ]
+      "keywords": ["Playwright", "FastAPI", "n8n", "PM2", "MySQL"]
     },
     {
       "name": "AI and ML",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "TensorFlow",
-        "scikit-learn",
-        "pandas",
-        "NumPy",
-        "Matplotlib"
-      ]
+      "keywords": ["PyTorch", "TensorFlow", "scikit-learn", "pandas", "NumPy", "Matplotlib"]
     },
     {
       "name": "Data tools",
       "icon": "fa-solid fa-chart-column",
-      "keywords": [
-        "Power BI",
-        "Tableau (beginner)",
-        "Excel"
-      ]
+      "keywords": ["Power BI", "Tableau (beginner)", "Excel"]
     },
     {
       "name": "Cloud and systems",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "AWS",
-        "Microsoft Azure",
-        "Linux (CentOS, Ubuntu)",
-        "Windows"
-      ]
+      "keywords": ["AWS", "Microsoft Azure", "Linux (CentOS, Ubuntu)", "Windows"]
     },
     {
       "name": "Ways of working",
       "icon": "fa-solid fa-list-check",
-      "keywords": [
-        "Agile, Scrum and Waterfall",
-        "Requirements and functional specifications",
-        "Technical documentation",
-        "Data quality testing"
-      ]
+      "keywords": ["Agile, Scrum and Waterfall", "Requirements and functional specifications", "Technical documentation", "Data quality testing"]
     }
   ],
   "interests": [
     {
       "name": "Self-hosting",
       "icon": "fa-solid fa-server",
-      "keywords": [
-        "Home NAS",
-        "Docker",
-        "Tailscale"
-      ]
+      "keywords": ["Home NAS", "Docker", "Tailscale"]
     },
     {
       "name": "Systems tooling",
       "icon": "fa-solid fa-screwdriver-wrench",
-      "keywords": [
-        "Rust desktop tools",
-        "Database internals"
-      ]
+      "keywords": ["Rust desktop tools", "Database internals"]
     },
     {
       "name": "Reading",
       "icon": "fa-solid fa-book-open",
-      "keywords": [
-        "E-ink readers",
-        "Typography"
-      ]
+      "keywords": ["E-ink readers", "Typography"]
     }
   ]
 }
