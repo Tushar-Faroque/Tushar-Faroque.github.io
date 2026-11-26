@@ -66,6 +66,18 @@ ninja.data = [{
           section: "News",},{id: "news-now-learning-how-large-language-models-work-and-how-to-apply-them-well-in-automation-data-and-ml-work",
           title: 'Now learning: how large language models work and how to apply them well...',
           description: "",
+          section: "News",},{id: "news-wrote-technical-documentation-for-the-air-india-and-airasia-automation-suites-so-the-team-can-run-and-troubleshoot-them-without-me",
+          title: 'Wrote technical documentation for the Air India and AirAsia automation suites, so the...',
+          description: "",
+          section: "News",},{id: "news-connected-the-hr-system-to-the-staff-roster-leave-and-attendance-sync-in-and-approved-leave-is-applied-back-automatically-from-a-dashboard-button",
+          title: 'Connected the HR system to the staff roster: leave and attendance sync in,...',
+          description: "",
+          section: "News",},{id: "news-extended-the-airline-automations-to-batik-air-and-qantas-with-e-ticket-capture-from-email-and-meal-add-on-payments",
+          title: 'Extended the airline automations to Batik Air and Qantas, with e-ticket capture from...',
+          description: "",
+          section: "News",},{id: "news-the-automation-platform-now-runs-50-background-automations-across-airlines-payments-reconciliation-hr-and-operations",
+          title: 'The automation platform now runs 50+ background automations across airlines, payments, reconciliation, HR...',
+          description: "",
           section: "News",},{id: "projects-internal-tools",
           title: 'Internal tools',
           description: "Invoice converters, a live flight board and reporting helpers",
@@ -88,12 +100,12 @@ ninja.data = [{
               window.location.href = "/projects/13_gignestmel/";
             },},{id: "projects-automation-platform",
           title: 'Automation platform',
-          description: "A four-layer architecture behind 20+ production automations",
+          description: "A four-layer architecture behind 50+ production automations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_automation_platform/";
             },},{id: "projects-airline-group-booking-automations",
           title: 'Airline group-booking automations',
-          description: "Air India, AirAsia and Singapore Airlines workflows across portals and Amadeus",
+          description: "Air India, AirAsia, Batik Air, Singapore Airlines and Qantas workflows across portals and Amadeus",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_airline_automations/";
             },},{id: "projects-attribution-and-customer-segmentation",
@@ -116,6 +128,11 @@ ninja.data = [{
           description: "Fine-tuned classifiers that brief human agents during live calls",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_call_intelligence/";
+            },},{id: "projects-hr-and-rostering-automations",
+          title: 'HR and rostering automations',
+          description: "Leave and attendance sync between the HR system and the staff roster",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_hr_rostering/";
             },},{id: "projects-inventory-and-pricing-automation",
           title: 'Inventory and pricing automation',
           description: "Marketplace inventory sync and a rule-driven pricing engine",
