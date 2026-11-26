@@ -2,18 +2,18 @@
 layout: post
 title: A four-layer pattern for browser automation
 date: 2026-10-14 10:00:00
-description: How Playwright, FastAPI, n8n and PHP/MySQL fit together
+description: How Python with Playwright, FastAPI, n8n and PHP/MySQL fit together
 tags: automation architecture n8n
 categories: notes
 ---
 
 Most of the automations I build start the same way: a person logs into a website, clicks through a flow and copies something somewhere else. After a few of these I settled on a pattern that keeps each new automation small.
 
-{% include flow.liquid steps="Playwright::does the clicking|FastAPI + PM2::task as an API|n8n::decides when and what next|PHP + MySQL::remembers everything" label="Four-layer automation pattern" %}
+{% include flow.liquid steps="Python + Playwright::does the clicking|FastAPI + PM2::task as an API|n8n::decides when and what next|PHP + MySQL::remembers everything" label="Four-layer automation pattern" %}
 
 ## The layers
 
-**1. Playwright does the clicking.** One Python script per task, with selectors kept in one place at the top. When a portal changes, this is the only file that needs to change.
+**1. Python with Playwright does the clicking.** One Python script per task, with selectors kept in one place at the top. When a portal changes, this is the only file that needs to change.
 
 **2. FastAPI makes the task callable.** Each script is wrapped in a small HTTP service with a clear request and response. PM2 keeps the services running and restarts them if they crash.
 

@@ -9,12 +9,12 @@ category: work
 
 Most business processes at a travel company end in someone logging into a supplier portal, clicking through a flow and copying results into another system. I designed a repeatable architecture so each of those processes could become an automation without reinventing the plumbing every time.
 
-{% include flow.liquid steps="Playwright::drives the browser|FastAPI + PM2::tasks as APIs|n8n::orchestrates workflows|PHP + MySQL::state and dashboards" label="Flow from Playwright to FastAPI and PM2 to n8n to PHP and MySQL" %}
+{% include flow.liquid steps="Python + Playwright::drives the browser|FastAPI + PM2::Python tasks as APIs|n8n::orchestrates workflows|PHP + MySQL::state and dashboards" label="Flow from Playwright to FastAPI and PM2 to n8n to PHP and MySQL" %}
 
 ## The four layers
 
-1. **Playwright** drives the browser: logging in, handling OTP prompts, navigating, scraping and submitting.
-2. **FastAPI services under PM2** wrap each browser task as a small HTTP API with a predictable request and response shape, and PM2 keeps them alive and restarts them on failure.
+1. **Python with Playwright** drives the browser: logging in, handling OTP prompts, navigating, scraping and submitting. Each task is one Python script with its selectors kept together at the top.
+2. **Python FastAPI services under PM2** wrap each browser task as a small HTTP API with a predictable request and response shape, and PM2 keeps them alive and restarts them on failure.
 3. **n8n** orchestrates: schedules, webhooks, retries, branching, email and notifications.
 4. **PHP and MySQL** store results, back the dashboards and give the sales and operations teams buttons that trigger workflows.
 
