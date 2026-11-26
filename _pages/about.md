@@ -38,7 +38,7 @@ Before that, I was a Research Assistant and Teaching Assistant at North South Un
 Outside work I self-host n8n on a home NAS behind Tailscale, write small desktop tools in Rust, and read a lot about databases and typography. My [cv](/cv/) has the details, and the [notes](/blog/) section holds the occasional write-up.
 
 <div class="stat-row">
-  <div class="stat"><span class="stat-num" data-count="30" data-suffix="+">30+</span> <span class="stat-label">production automations</span></div>
+  <div class="stat"><span class="stat-num" data-count="50" data-suffix="+">50+</span> <span class="stat-label">production automations</span></div>
   <div class="stat"><span class="stat-num" data-count="5">5</span> <span class="stat-label">airlines automated</span></div>
   <div class="stat"><span class="stat-num" data-count="4">4</span> <span class="stat-label">layer architecture</span></div>
   <div class="stat"><span class="stat-num" data-count="1">1</span> <span class="stat-label">first-author paper, BMVC 2022</span></div>
